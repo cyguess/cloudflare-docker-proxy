@@ -18,7 +18,6 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  const routes = {
   "docker.cyguess.top": "https://registry-1.docker.io",
   "quay.cyguess.top": "https://quay.io",
   "gcr.cyguess.top": "https://gcr.io",
