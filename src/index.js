@@ -19,13 +19,13 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   const routes = {
-  "docker.cyguess.com": "https://registry-1.docker.io",
-  "quay.cyguess.com": "https://quay.io",
-  "gcr.cyguess.com": "https://gcr.io",
-  "k8s-gcr.cyguess.com": "https://k8s.gcr.io",
-  "k8s.cyguess.com": "https://registry.k8s.io",
-  "ghcr.cyguess.com": "https://ghcr.io",
-  "cloudsmith.cyguess.com": "https://docker.cloudsmith.io",
+  "docker.cyguess.top": "https://registry-1.docker.io",
+  "quay.cyguess.top": "https://quay.io",
+  "gcr.cyguess.top": "https://gcr.io",
+  "k8s-gcr.cyguess.top": "https://k8s.gcr.io",
+  "k8s.cyguess.top": "https://registry.k8s.io",
+  "ghcr.cyguess.top": "https://ghcr.io",
+  "cloudsmith.cyguess.top": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
