@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-   { pattern = "docker.cyguess.com", custom_domain = true },
-   { pattern = "quay.cyguess.com", custom_domain = true },
-   { pattern = "gcr.cyguess.com", custom_domain = true },
-   { pattern = "k8s-gcr.cyguess.com", custom_domain = true },
-   { pattern = "k8s.cyguess.com", custom_domain = true },
-   { pattern = "ghcr.cyguess.com", custom_domain = true },
-   { pattern = "cloudsmith.cyguess.com", custom_domain = true },
+   { pattern = "docker.cyguess.top", custom_domain = true },
+   { pattern = "quay.cyguess.top", custom_domain = true },
+   { pattern = "gcr.cyguess.top", custom_domain = true },
+   { pattern = "k8s-gcr.cyguess.top", custom_domain = true },
+   { pattern = "k8s.cyguess.top", custom_domain = true },
+   { pattern = "ghcr.cyguess.top", custom_domain = true },
+   { pattern = "cloudsmith.cyguess.top", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.cyguess.com", custom_domain = true }
+# route = { pattern = "docker-staging.cyguess.top", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
